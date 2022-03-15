@@ -1,0 +1,151 @@
+.body-background-img {
+   background: url(../images/Final\ Home\ page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    width: 1440px;
+}
+
+<!--Navigation bar
+.nav-logo{
+      width: 310px;
+      height: 113px;
+    position: relative;
+    justify-content: center;
+    
+    }
+
+.nav-search{
+      width: 310px;
+      height: 113px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    bottom: 10%;
+    }
+
+.nav-item{
+   position: relative;
+   bottom: -10px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.nav a {
+   color: white;
+   padding: 57px 5px;
+   padding-bottom: 0%;
+   font-size: 24px;
+   font-style: bold;
+   font-family: 'inter', sans-serif;
+   text-decoration: none;
+   text-align: center;
+   margin: 17px;
+   text-shadow: 4px 4px 4px black;
+   bottom: -100px;
+}
+
+<!--hero message>
+
+ .hero-img {
+    justify-content: center;
+    align-items: center;
+    display: block;  
+   margin-left: auto;  
+   margin-right: auto; 
+   padding: 10px;
+   bottom: 40px;
+ }   
+
+ .hero-arrow-img{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+ }   
+
+ .hero-paragraph {
+   font-family: 'Patua One', serif;
+   font-weight: bold;
+   font-size: 34px;
+   color: black;
+   margin: 100px auto;
+   position: relative;
+   margin-bottom: 10px;
+   text-align: left;
+  width: 792px;
+  padding: 10px;
+ }
+
+
+ .herobutton {
+   background-color: #647552;
+   border: none;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: relative;
+   font-size: 24px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 50px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ <!--Up Coming Event>
+
+ .event h1 {
+   font-family: 'Patua One', serif;
+   font-weight: bold;
+   font-size: 36px;
+   color: black;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .event p {
+   font-family: 'inter', sans-serif;
+   font-size: 24px;
+   color: black;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .eventbutton {
+   background-color: #647552;
+   border: none;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 24px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 50px;
+   transition-duration: 0.4s;
+ }
+
+/* change color on hover*/
+ .eventbutton :hover {
+   background-image: linear-gradient(180deg, #4E5A3F, #EBF0E5);
+   border: 3px solid #4E5A3F;
+   font-weight: bold;
+   color: white;
+} 
+ #productgrid {
+   margin: 0px 10%;
+   display: grid;
+   min-height: 513px;
+   height: 10vh;
+   grid-template-rows: 374px 374px 374px;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-areas: 
+   "card1 card2 card3";
+}
