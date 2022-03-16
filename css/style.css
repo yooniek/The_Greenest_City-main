@@ -17,9 +17,8 @@
     }
 
 .nav-search{
-      width: 310px;
-      height: 113px;
-    align-items: center;
+position: relative;
+bottom: -5px;
     }
 
 .nav-item{
@@ -41,7 +40,7 @@
    text-align: center;
    margin: 17px;
    text-shadow: 4px 4px 4px black;
-   bottom: -100px;
+   bottom: -48px;
 }
 /* change color on hover*/
 .nav a:hover {
@@ -49,17 +48,19 @@
 } 
 <!--hero message>
 
- .hero-img p{
-  text-align: center;
+ .heroimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   position: relative;
-  bottom:20px;
-  margin-top: 100px;
+  top: 150px;
  }   
 
  .hero-arrow-img p{
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 150px;
  }   
 
  .hero-paragraph {
@@ -72,6 +73,7 @@
    text-align: left;
   width: 792px;
   padding: 10px;
+  top: 100px;
  }
 
 
@@ -87,12 +89,13 @@
    margin: 4px 2px;
    cursor: pointer;
    border-radius: 50px;
-   top: 10px;
+   position: relative;
+   top: 120px;
  }
 
  <!--Up Coming Event>
 
- h1 .event{
+.event h1{
    font-family: 'Patua One';
    font-size: 36px;
    color: green;
@@ -111,25 +114,25 @@
  }
 
  .eventbutton {
-   background-color: #647552;
-   border: none;
-   color: white;
-   padding: 5px 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 24px;
-   margin: 4px 2px;
-   cursor: pointer;
-   border-radius: 50px;
-   transition-duration: 0.4s;
-   top: 10px;
+  background-color: #647552;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  top:30px;
  }
 
 /* change color on hover*/
  .eventbutton a:hover {
    background-color: linear-gradient(180deg, #647552, #EBF0E5);
-   border: 3px solid #4e4d4d;
+   border-radius: 50px;
+   border: 5px solid #4e4d4d;
 } 
  #productgrid {
    margin-left: auto;
