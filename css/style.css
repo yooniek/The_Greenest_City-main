@@ -102,7 +102,7 @@ bottom: -5px;
 
  <!--Up Coming Event>
 
-.Heading h1{
+#heading h1{
    font-family:'Patua One';
    font-size: 36px;
    color: black;
@@ -112,7 +112,7 @@ bottom: -5px;
    padding: 20px;
  }
 
- .Heading p{
+ #heading p{
    font-family:'Inter', Helvetica, sans-serif;
    font-size: 24px;
    color: black;
@@ -305,7 +305,7 @@ bottom: -5px;
 }
 
 .home_email{
-  width: 523px; 
+  width: 450px; 
   height: 45px; 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
   border: 1px solid #FFFFFF; 
@@ -313,7 +313,7 @@ bottom: -5px;
   background: rgba(252, 218, 135, 0.68); 
   position: relative;
   text-align: left;
-  left: -15px;
+  left: -30px;
 }
 
 .home_email::placeholder{
@@ -331,7 +331,7 @@ bottom: -5px;
   background-color: #647552;
   border: none;
   color: white;
-  padding: 4px 20px;
+  padding: 4px 50px;
   text-align: center;
   text-decoration: none;
   font-size: 24px;
@@ -343,7 +343,7 @@ bottom: -5px;
  }
 
 /* change color on hover*/
- .eventbutton:hover {
+ .eventbutton3:hover {
   background-color: #EBF0E5;
   color: #4e4d4d;
    border: 1px solid #4e4d4d;
@@ -379,7 +379,7 @@ padding-bottom: 60px;
   }
 
 .eventbutton1 {
-  background-color: none;
+  background-color: transparent;
   border: none;
   color: #4e4d4d;
   padding: 5px 20px;
@@ -388,8 +388,10 @@ padding-bottom: 60px;
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 15px;
   position: relative;
-  padding: 20px;
+  top: -45px;
  }
 /* change color on hover*/
 .eventbutton1:hover {
@@ -398,7 +400,10 @@ padding-bottom: 60px;
   border: none;
   }
 
-
+.Instagram{
+  float: left;
+  position: relative;
+}
 
 @media only screen and (max-width: 600px) {
 
