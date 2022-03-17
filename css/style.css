@@ -2,9 +2,9 @@
    background: url(../images/Final\ Home\ page.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
+
+
 
 <!--Navigation bar>
 .nav-logo{
@@ -61,6 +61,7 @@ bottom: -5px;
   text-align: center;
   position: relative;
   top: 150px;
+  cursor: pointer;
  }   
 
  .hero-paragraph {
@@ -76,37 +77,43 @@ bottom: -5px;
   top: 100px;
  }
 
-
-
  .herobutton {
-   background-color: #647552;
-   border: none;
-   color: white;
-   padding: 5px 20px;
-   text-align: center;
-   text-decoration: none;
-   font-size: 24px;
-   margin: 4px 2px;
-   cursor: pointer;
-   border-radius: 50px;
-   position: relative;
-   top: 120px;
+  background-color: #647552;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  top: 120px;
  }
+/* change color on hover*/
+.herobutton:hover {
+  background-color:#EBF0E5;
+  color:#4e4d4d;
+   border: 1px solid #4e4d4d;
+   margin: 3px 1px;
+} 
+
 
  <!--Up Coming Event>
 
-.event h1{
-   font-family: 'Patua One';
+.head h1{
+   font-family:'Patua One';
    font-size: 36px;
-   color: green;
+   color: black;
    position: relative;
    text-align: center;
    margin: 10px;
    padding: 20px;
  }
 
- .event p {
-   font-family: Inter, Helvetica, sans-serif;
+ .head p{
+   font-family:'Inter', Helvetica, sans-serif;
    font-size: 24px;
    color: black;
    position: relative;
@@ -129,11 +136,36 @@ bottom: -5px;
  }
 
 /* change color on hover*/
- .eventbutton a:hover {
-   background-color: linear-gradient(180deg, #647552, #EBF0E5);
-   border-radius: 50px;
-   border: 5px solid #4e4d4d;
+ .eventbutton:hover {
+  background-color: #EBF0E5;
+  color: #4e4d4d;
+   border: 1px solid #4e4d4d;
+   margin: 3px 1px;
 } 
+
+.smallbutton {
+  background-color: #647552;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  top:30px;
+ }
+
+/* change color on hover*/
+ .smallbutton:hover {
+  background-color: #EBF0E5;
+  color: #4e4d4d;
+   border: 1px solid #4e4d4d;
+   margin: 3px 1px;
+} 
+
  #productgrid {
    margin-left: auto;
   margin-right: auto;
@@ -141,25 +173,24 @@ bottom: -5px;
    justify-content: center;
    column-gap: 40px;
    row-gap: 20px;
-   min-height: 513px;
-   height: 10vh;
-   grid-template-rows: 374px 374px 374px;
-   grid-template-columns: 1fr 1fr 1fr;
    grid-template-areas: 
    "card1 card2 card3";
 }
 
 <!--Cards>
 
-.card-body{
-color: white;
-padding: 10px;
-border-radius: 20px;
-box-shadow: 6px 6px 6px 6px black;
+.card img{
+  border-radius: 1rem;
 }
 
+.card{
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgb(100, 117, 101);
+  border-radius: 1rem; 
+ }
+
 .card-title {
-  font-family: 'Patua One';
+  font-family:'Patua One';
    font-size: 24px;
    color: black;
    margin-bottom: 10px;
@@ -167,39 +198,86 @@ box-shadow: 6px 6px 6px 6px black;
 }
 
 .card-text {
-  font-family: Inter, Helvetica, sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif;
    font-size: 18px;
    color: black;
    margin-bottom: 10px;
    text-align: left;
 }
 
-.btn-primary{ 
+
+
+.herobutton {
   background-color: #647552;
+  border: none;
+  color: white;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 24px;
   margin: 4px 2px;
-}
-
-
-<!--Gallery>
-
-.gallery h1{
-  font-family: 'Patua One';
-  font-size: 36px;
-  color: black;
+  cursor: pointer;
+  border-radius: 50px;
   position: relative;
-  text-align: center;
-  margin: 10px;
-  padding: 20px;
+  top: 120px;
+ }
+/* change color on hover*/
+.herobutton:hover {
+  background-color:#EBF0E5;
+  color:#4e4d4d;
+   border: 1px solid #4e4d4d;
+   opacity: 0.7;
+  }
+
+
+
+
+
+
+
+/* Footer */
+.footer-background-img {
+  background: url(../images/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
-.gallery p {
-  font-family: Inter, Helvetica, sans-serif;
-  font-size: 24px;
-  color: black;
-  position: relative;
-  text-align: center;
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .body-background-img {
+    background: url(../images/Final\ Home\ page.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .hero{
+  transform: scale(0.65);
+ }
+
+ .hero-paragraph{
+   font-size: 30px;
+ }
+
+  .head{
+      position: static;
+      margin: 10px;
+  }
+  #productgrid {
+      grid-template-areas: 
+      "card1"
+      "card2"
+      "card3"
+      ;
+  }
+  #demo {
+      display: none;
+  }
+
+  .galleryhead {
+    display: none;
+  }
 }
+
