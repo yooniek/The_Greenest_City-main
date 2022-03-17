@@ -244,18 +244,17 @@ bottom: -5px;
 }
 
 #categoryGrid {
-  margin: 0px 5%;
+  margin: 0px 10%;
+  margin-top: 20px;
   display: grid;
-  grid-template-rows: 225px 225px 225px 225px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px;
   grid-template-areas:
-  "empty subscribe subscribe subscribe"
-  "empty navitems contact buttons"
-  ;
+  "empty empty subscribe subscribe subscribe"
+  "empty empty navitems contact buttons";
 }
 
 .categoryGridArea {
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
@@ -264,6 +263,30 @@ bottom: -5px;
   align-content: end;
 }
 
+#empty{
+  grid-area: empty;
+}
+
+#subscribe {
+  grid-area: subscribe;
+  align-content: center;
+}
+
+#navitems{
+  grid-area: navitems;
+  align-content: center;
+  padding-right: 20px;
+}
+
+#contact{
+  grid-area: contact;
+  align-content: left;
+}
+
+#buttons{
+  grid-area: buttons;
+  align-content: center;
+}
 
 #subscribe h1{
   font-family:'Patua One';
@@ -271,8 +294,6 @@ bottom: -5px;
   color: black;
   position: relative;
   text-align: left;
-  margin: 10px;
-  padding: 20px;
 }
 
 #subscribe p1{
@@ -282,6 +303,100 @@ bottom: -5px;
   position: relative;
   text-align: left;
 }
+
+.home_email{
+  width: 523px; 
+  height: 45px; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border: 1px solid #FFFFFF; 
+  border-radius: 40px; 
+  background: rgba(252, 218, 135, 0.68); 
+  position: relative;
+  text-align: left;
+  left: -15px;
+}
+
+.home_email::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  padding-left: 20px;
+  color: #828A70;
+}
+
+.eventbutton3 {
+  background-color: #647552;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  bottom: -4px;
+ }
+
+/* change color on hover*/
+ .eventbutton:hover {
+  background-color: #EBF0E5;
+  color: #4e4d4d;
+   border: 1px solid #4e4d4d;
+   margin: 3px 1px;
+} 
+
+
+#navitems p1{
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  align-items: left;
+  text-align: left;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.contactinfo{
+  padding: 20px;
+}
+
+.contactinfo p1{
+font-size: 24px;
+align-items: left;
+text-align: left;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.contactinfo p2{
+  font-size: 18px;
+  text-align: left;
+  }
+
+.eventbutton1 {
+  background-color: none;
+  border: none;
+  color: #4e4d4d;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  padding: 20px;
+ }
+/* change color on hover*/
+.eventbutton1:hover {
+  color:#ffe3a0;
+  background-color: none;
+  border: none;
+  }
 
 
 
