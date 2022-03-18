@@ -393,14 +393,14 @@ padding-bottom: 60px;
   padding-bottom: 15px;
   position: relative;
   top: -45px;
-  text-shadow: 4px 4px 4px rgb(112, 111, 111);
+  text-shadow: 4px 4px 4px rgb(165, 161, 161);
  }
 /* change color on hover*/
 .eventbutton1:hover {
   color:#ffe3a0;
   background-color: none;
   border: none;
-  text-shadow: 4px 4px 4px rgb(112, 111, 111);
+  text-shadow: 4px 4px 4px rgb(165, 161, 161);
   }
 
 .Instagram{
