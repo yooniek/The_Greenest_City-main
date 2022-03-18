@@ -391,12 +391,6 @@ padding-top: 10px;
   justify-content: space-between
 }
 
-.button1{
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
-}
 
 .eventbutton1 {
   background-color: transparent;
