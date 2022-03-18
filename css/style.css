@@ -280,15 +280,14 @@ bottom: -5px;
 
 #contact{
   grid-area: contact;
-  align-content: left;
-  display: block;
-  justify-content: left;
+  align-content: center;
+  padding: 10px;
 }
 
 #buttons{
   grid-area: buttons;
-  display: block;
   justify-content: center;
+  padding: 10px;
 }
 
 #subscribe h1{
@@ -364,23 +363,39 @@ bottom: -5px;
   padding: 20px;
 }
 
+.contact1{
+  padding-top: 5px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
 .contactinfo{
-  padding: 21px;
-}
-
-.contactinfo p1{
 font-size: 24px;
-align-items: left;
 text-align: left;
-padding-top: 60px;
-padding-bottom: 60px;
+padding-top: 10px;
 }
 
-.contactinfo p2{
+.address{
   font-size: 18px;
   text-align: left;
-  padding-top: 10px;
+  padding-bottom: 15px;
   }
+
+.button1{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.button1{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
 
 .eventbutton1 {
   background-color: transparent;
@@ -392,7 +407,6 @@ padding-bottom: 60px;
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
-  padding-top: 20px;
   padding-bottom: 50px;
   text-shadow: 4px 4px 4px rgb(165, 161, 161);
  }
