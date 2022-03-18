@@ -46,6 +46,7 @@ bottom: -5px;
 .nav a:hover {
   color: #ffe3a0;
 } 
+
 <!--hero message>
 
  .heroimg{
@@ -423,6 +424,7 @@ padding-top: 10px;
   bottom: -30px;
   cursor: pointer;
 }
+
 
 @media only screen and (max-width: 600px) {
 
